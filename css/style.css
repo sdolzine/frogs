@@ -1,1 +1,47 @@
-/* Enter your Styles below! */
+@font-face {
+    font-family: 'bluunext-bold';
+    src url:url('bluunext-bold.ttf') format('truetype'),
+        font-weight: normal;
+    font-style: normal;}
+
+
+.startpage-head {
+	width:100%;
+	height:100%;
+	text-align: center;
+}
+
+.open-head {
+	font-size: 250px;
+	font-family: 'Bluunext-bold', normal;
+	color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #b2c997;
+
+}
+.start {
+	font-family: meno-display, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 29px;
+	color: #b2c997;}
+
+
+
+}
+a {text-decoration: none;}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+
+.startpage {background-color: #58664a;}
