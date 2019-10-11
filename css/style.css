@@ -4,10 +4,21 @@
         font-weight: normal;
     font-style: normal;}
 
+/* Click-to-Start-Page CSS Style */
+.startpage { 
+	background-image: url("../images/frog-dessect1.png");
+	background-size: 120%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #58664a;
+	;
+}
+
 
 .startpage-head {
-	width:100%;
-	height:100%;
+	position: relative;
+	top: 250px;
 	text-align: center;
 }
 
@@ -26,8 +37,37 @@
 	font-size: 29px;
 	color: #b2c997;}
 
+/* Homepage CSS Style */
 
+.homepage-body {
+	background-color: #58664a;
+}
 
+.frgs {font-size: 250px;
+	font-family: 'Bluunext-bold', normal;
+	color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #a08b47;
+	border-style: solid;
+	border-width: 5px;
+	border-color:#a08b47 ;}
+
+/* Anatomy-Page CSS Style */
+.anatomy-body {background-color: #58664a ;}
+
+.anatomy-h1	{font-size: 100px;
+	font-family: 'Bluunext-bold', normal;
+	color: #b2c997 ;}
+
+/* Species-Page CSS Style */	
+
+.species-body {background-color: #58664a ;}
+
+.species-h1	{font-size: 100px;
+	font-family: 'Bluunext-bold', normal;
+	color: #b2c997 ;}
+
+/* Link Effects*/
 }
 a {text-decoration: none;}
 a:link {
@@ -43,5 +83,3 @@ a:active {
   text-decoration: none;
 }
 
-
-.startpage {background-color: #58664a;}
