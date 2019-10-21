@@ -72,7 +72,7 @@
 			position: absolute;
 			bottom:8px;
 			align-content: bottom;
-			padding-left: 40px;
+			padding-left: 25px;
 			padding-bottom: 20px;	
 				}
 
@@ -103,7 +103,26 @@
 .gs {padding-bottom: 50px
 	padding-left: 20px;}	
 
-/* Anatomy-Page CSS Style */
+/* Anatomy-Page Exterior CSS Style */
+.hidden-frog {font-size: 70px;
+	font-family: 'Bluunext-bold', normal;
+	color: #58664a;
+	padding-left: 40px;
+	position: relative;
+	padding-top:10px;
+}
+
+
+.anatomy-grid {display: grid;
+	grid-template-columns: 20% 60% 20%;
+	position: relative;
+	top: 20px;
+	}
+
+.grid-one {grid-column: span 1;}
+.grid-two {grid-column: span 1;}
+.grid-three {grid-column: span 1;}
+
 .anatomy-body {
 	background-color: #58664a;
 	background-image: url("../images/texture1.png");
@@ -115,8 +134,49 @@
 .anatomy-h1	{font-size: 100px;
 	font-family: 'Bluunext-bold', normal;
 	color: #b2c997 ;
-	padding-left: 350px;
+	left:90px;
+	position: relative;
+	top: 30px;
+	z-index: 600;
+	text-transform: uppercase;
 	}
+
+.anatomy-nav {
+	position: fixed;
+	bottom:8px;
+	align-content: bottom;
+	padding-left: 40px;
+	padding-bottom: 40px;
+			}	
+.linedetail-two {
+	position: fixed;
+	bottom:8px;
+	margin-bottom: 90px;
+	align-content: bottom;
+	padding-left: 40px;
+	padding-bottom: 40px;}
+
+.skeleton {position:relative;
+max-width: 100%;
+bottom:20px;
+right:30px;}
+
+.arrow-right {position:relative;
+z-index: 5;
+bottom:68px;
+left:410px;
+}
+
+
+/* Anatomy-Page Skeleton CSS Style */
+
+
+/* Anatomy-Page Organs CSS Style */
+
+
+
+
+
 
 /* Species-Page CSS Style */	
 
@@ -165,37 +225,50 @@ h6 {font-size: 18px;
 /* Dissection-Page CSS Style */	
 .dissected-body {
 	background-color: #58664a;
-	background-image: url("../images/texture1.png");
+	background-image: url("../images/texture2.png");
 	background-size: 100%;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;}
 
 .dissected-header {display: grid;
-	grid-template-columns: 40% 60%;}
+	grid-template-columns: 40% 60%;
+width:100%;
+max-width: 1440px;
+height: 100px;
+background-color:#444c36;
+position: fixed;
+top:0px;
+left:0px;}
 
-.dissected-h1	{font-size: 100px;
+.dissected-h1	{font-size: 70px;
 	font-family: 'Bluunext-bold', normal;
 	color: #b2c997 ;
+	padding: 10px 0px 10px 45px;
 	}
 
 .dissect-main {
 	display: grid;
-	grid-template-columns: minmax(400px,405px) 56%;
-	width: 90%;
-	margin: auto;
+	grid-template-columns: 40% 60%;
+	max-width:100vw;
+	margin-top: 140px;
+	overflow:hidden;
 
 }	
 
 .dissected-nav {
 	display: inline-block;
-	margin: 20px;
-
+	padding: 40px 20px 20px 20px;
+	
 }
 .dissected-ul {
 	list-style-type: none;
 	min-height: 100px;
-	min-width: 500px;
+	min-width: 200px;
+	position: relative;
+			left:100px;
+			bottom: 20px;
+
 }
 
 .dissected-li { 
@@ -203,13 +276,24 @@ h6 {font-size: 18px;
 	margin-right: 40px;
 	margin-top:40px;
 	text-transform: uppercase;
-	padding: 16px;
+	padding: 18px;
 	
 }
 
+.text {grid-column: span 1;
+        grid-row: auto;
+        padding-left: 45px;}
+.imgs {grid-column: span 1;
+        grid-row: auto;
+        overflow: hidden;
+        padding-top: 70px;
+  }        
 
 
-	
+.dissected-frog-img {overflow-x:hidden;
+scale: 60%;}
+
+
 
 /* Accross-Pages-Design CSS Style */
 
@@ -260,6 +344,19 @@ a:hover {
 a:active {
   text-decoration: none;
   color: #b2c997 ;
+}
+
+.hidden-frogs:link {text-decoration: none;
+color: #58664a;}
+.hidden-frogs:visited {text-decoration: none;
+color: #58664a;}
+.hidden-frogs:hover {text-decoration: none;
+color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #a08b47}
+.hidden-frogs:active {
+  text-decoration: none;
+  color: #58664a ;
 }
 
 
