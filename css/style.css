@@ -108,7 +108,7 @@
 	font-family: 'Bluunext-bold', normal;
 	color: #58664a;
 	padding-left: 40px;
-	position: relative;
+	position: absolute;
 	padding-top:10px;
 }
 
@@ -161,22 +161,23 @@ max-width: 100%;
 bottom:20px;
 right:30px;}
 
-.arrow-right {position:relative;
-z-index: 5;
-bottom:68px;
-left:410px;
+.arrow-right {
+	position:relative;
+	z-index: 5;
+	bottom:68px;
+	left:400px;
 }
 
 
+
+
 /* Anatomy-Page Skeleton CSS Style */
-
-
-/* Anatomy-Page Organs CSS Style */
-
-
-
-
-
+.arrow-left {
+	position:relative;
+	z-index: 7;
+	bottom:68px;
+	left:290px;
+}
 
 /* Species-Page CSS Style */	
 
@@ -192,15 +193,22 @@ left:410px;
 .species-h1	{font-size: 100px;
 	font-family: 'Bluunext-bold', normal;
 	color: #b2c997 ;
-	padding-left: 400px;
-}
+	left:356px;
+	position: fixed;
+	top: 50px;
+	z-index: 600;
+	text-transform: uppercase;
+	}
 
 h5 {
 	font-size: 20px;
 	font-family: 'Bluunext-bold', normal;
 	color: #b2c997 ;
-	padding-left: 400px
-	width: 100%;
+	font-size: 20px;
+	color: #b2c997 ;
+	line-height: 26px;
+	letter-spacing: .12px;
+	padding: 0px 20px 0px 30px
 }
 
 h6 {font-size: 18px;
@@ -210,19 +218,145 @@ h6 {font-size: 18px;
 	width: 100%;
 	font-weight: 400;
 	font-style: italic;
+	padding: 0px 20px 0px 30px;
+}
+
+#text {
+	font-family: meno-display, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	color: #b2c997 ;
+	line-height: 23px;
+	letter-spacing: .12px;
+	padding: 0px 20px 0px 30px;
+	
+
+}
+
+.speices-img {position:relative;
+max-width: 100%;
+bottom:20px;
+}
+
+.speices-img2 {position:relative;
+max-width: 100%;
+bottom:20px;
+margin-top:150px;
+}
+
+.speices-img3 {position:relative;
+max-width: 100%;
+bottom:20px;
+margin-top:150px;
 }
 
 
-/* Entertainment-Page CSS Style */	
-.entertainment-body {background-color: #58664a ;}
+.species-grid {display: grid;
+	grid-template-columns: 14% 58% 28%;
+	position: relative;
+	top: 20px;
+	}
 
-.entertainment-h1	{font-size: 100px;
+
+.species.grid-one {grid-column: span 1;}
+.species.grid-two {
+	grid-column: span 1;
+	margin-top:100px;
+	max-height: auto;
+ }
+
+.species.grid-three {grid-column: span 1;
+	display:grid;
+	grid-template-rows: repeat(5, 20%);
+margin-top:140px;
+grid-row-gap: 190px;}
+
+.uno {grid-row:span 1;
+	max-height: auto;
+}
+.dos {grid-row:span 1;
+	max-height: auto;
+	}
+.tres {grid-row:span 1;
+	max-height: auto;
+	}
+.quatro {grid-row:span 1;
+	max-height: auto;
+	}
+.cinco {grid-row:span 1;
+	max-height: auto;
+	}
+
+/* Facts-Page CSS Style */
+.facts-body {
+	background-color: #58664a;
+	background-image: url("../images/texture2.png");
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;}
+
+.facts-body {background-color: #58664a ;}
+
+.facts-h1	{font-size: 100px;
 	font-family: 'Bluunext-bold', normal;
 	color: #b2c997 ;
 	padding-left: 350px;}
 
+.facts-main {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+	
+	max-width:100vw;
+	margin-top: 155px;
+	overflow: hidden;
+	
+}	
+
+#facts-h4 {font-family: meno-display, serif;
+font-weight: 600;
+font-style: normal;
+font-size: 29px;
+text-decoration: underline;
+text-decoration-line: 5px;
+color: #b2c997 ;
+	}
+
+.facts.text {grid-column: span 1;
+        grid-row: 1;
+        padding-left: 45px;
+    	padding-right: 73px;}
+
+.facts-text-two {grid-column: 2;
+        grid-row: 2;
+        padding-left: 45px;
+    	padding-right: 70px;
+    	padding-bottom:50px;
+    	padding-top:100px;
+    	margin-bottom:150px;
+
+   }    	
+.frogfacts-two {
+	max-width:90%;
+	grid-column: 1;
+        grid-row: 2;
+       padding-left:75px;
+       padding-top:20px;
+}
+.facts.frog-one {padding-right:150px;}
+.frogfacts-one {
+	max-width:120%;
+	grid-column: 2;
+        grid-row: 1;
+        padding-right:300px;
+}
+
+
 
 /* Dissection-Page CSS Style */	
+
 .dissected-body {
 	background-color: #58664a;
 	background-image: url("../images/texture2.png");
@@ -258,7 +392,7 @@ left:0px;}
 
 .dissected-nav {
 	display: inline-block;
-	padding: 40px 20px 20px 20px;
+	margin: 40px 0px 20px 20px;
 	
 }
 .dissected-ul {
@@ -266,7 +400,7 @@ left:0px;}
 	min-height: 100px;
 	min-width: 200px;
 	position: relative;
-			left:100px;
+			left:150px;
 			bottom: 20px;
 
 }
@@ -286,7 +420,7 @@ left:0px;}
 .imgs {grid-column: span 1;
         grid-row: auto;
         overflow: hidden;
-        padding-top: 70px;
+        padding-top: 55px;
   }        
 
 
@@ -320,8 +454,13 @@ nav {
 	font-style: normal;
 	text-transform: uppercase;
 	color:#b2c997 ;
+	line-height: 18px;
 	position: relative;
 	z-index: 998;}
+
+
+footer 
+/* Finish after everything else is completed*/
 
 
 
@@ -359,6 +498,8 @@ color: transparent;
   color: #58664a ;
 }
 
+
+/*Scrollbar edits*/
 
 /* width */
 ::-webkit-scrollbar {
