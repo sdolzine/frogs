@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'bluunext-bold';
     src: url('../font/bluunext-bold.ttf') format('truetype'),
-        font-weight: normal;
-    font-style: normal;}
+   		url('../font/bluunext-bold.ttf') format('woff')
+        }
 
 /* Click-to-Start-Page CSS Style */
 .startpage { 
@@ -24,7 +24,7 @@
 
 .open-head {
 	font-size: 250px;
-	font-family: 'Bluunext-bold', normal;
+	font-family: 'bluunext-bold', normal;
 	color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #b2c997;
@@ -92,7 +92,7 @@
   }
 
 .frgs {font-size: 250px;
-	font-family: 'Bluunext-bold', normal;
+	font-family: 'bluunext-bold', normal;
 	color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #b69949;
@@ -105,7 +105,7 @@
 
 /* Anatomy-Page Exterior CSS Style */
 .hidden-frog {font-size: 70px;
-	font-family: 'Bluunext-bold', normal;
+	font-family: 'bluunext-bold', normal;
 	color: #58664a;
 	padding-left: 40px;
 	position: absolute;
@@ -132,7 +132,7 @@
 	background-repeat: no-repeat}
 
 .anatomy-h1	{font-size: 100px;
-	font-family: 'Bluunext-bold', normal;
+	font-family: 'bluunext-bold', normal;
 	color: #b2c997 ;
 	left:90px;
 	position: relative;
@@ -191,7 +191,7 @@ right:30px;}
 }
 
 .species-h1	{font-size: 100px;
-	font-family: 'Bluunext-bold', normal;
+	font-family: 'bluunext-bold', normal;
 	color: #b2c997 ;
 	left:356px;
 	position: fixed;
@@ -202,7 +202,7 @@ right:30px;}
 
 h5 {
 	font-size: 20px;
-	font-family: 'Bluunext-bold', normal;
+	font-family: 'bluunext-bold', normal;
 	color: #b2c997 ;
 	font-size: 20px;
 	color: #b2c997 ;
