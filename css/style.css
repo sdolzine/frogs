@@ -1,7 +1,10 @@
 @font-face {
     font-family: 'bluunext-bold';
     src: url('../font/bluunext-bold.ttf') format('truetype'),
-   		url('../font/bluunext-bold.ttf') format('woff')
+   		url('../font/bluunext-bold.woff') format('woff'),
+   		url('../font/bluunext-bold.woff2') format('woff2';
+   			font-weight: normal;
+   			font-style: normal;
         }
 
 /* Click-to-Start-Page CSS Style */
