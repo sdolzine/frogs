@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'bluunext-bold';
-    src url:url('bluunext-bold.ttf') format('truetype'),
+    src: url('../font/bluunext-bold.ttf') format('truetype'),
         font-weight: normal;
     font-style: normal;}
 
