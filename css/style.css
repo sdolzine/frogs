@@ -472,8 +472,12 @@ nav {
 	z-index: 998;}
 
 
-footer 
-/* Finish after everything else is completed*/
+footer {background-color:#a08b47;
+min-height: 300px; 
+display: block;
+overflow: scroll;
+margin-top: 50px;
+}
 
 
 
